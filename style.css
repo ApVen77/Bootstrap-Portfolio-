@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+  
+
+
+body {  @media screen and (max-width: 320px) {
+    body {
+      background-color: #333;
+  
+
+}
+
+.navbar 
+{ float: right 
+
+}
+
+p { background-color: gray;
+    
+
+   
+}
+footer { background-color: #fff;
+        text-align: center; 
