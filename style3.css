@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+  
+
+
+body  {
+
+      background-color: #fff;
+       
+  
+
+}
+
+.navbar 
+{   background-color: #777777; 
+    float: right;
+    word-spacing: 5px; 
+
+    
+
+}
+
+h1 { background-color: #4aaaa5; 
+    font:  font-family: 'Georgia', Times, Times New Roman, serif;
+    border-width: 20px; 
+    line-height: 90px;
+   margin: 0;
+   padding: 0 25px;
+
+}
