@@ -12,7 +12,7 @@
 
 body  {
 
-      background-color: #fff;
+  background: url("https://thumbs.dreamstime.com/z/background-african-ornament-abstract-ethnic-pattern-copy-space-template-greeting-card-invitation-poster-vector-file-51712928.jpg") center;
        
   
 
@@ -36,6 +36,9 @@ h1 { background-color: #4aaaa5;
 
 }
 
+h2 {
+  color: red;
+}
 footer { background-color: #666666;
     text-align: center;
 margin-top:  75px; }

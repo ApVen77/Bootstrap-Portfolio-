@@ -11,34 +11,30 @@
 
 
 body  {
-
-      background-color: #fff;
-       
-  
+  background: url("https://thumbs.dreamstime.com/z/background-african-ornament-abstract-ethnic-pattern-copy-space-template-greeting-card-invitation-poster-vector-file-51712928.jpg") center;
 
 }
 
 .navbar 
 {   background-color: #777777; 
     float: right;
-    word-spacing: 5px; 
+    word-spacing: 5px;  }
 
-    
-
+.image {
+  margin-top: 5px; 
 }
+
+
 
 h1 { background-color: #4aaaa5; 
-    font:  font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     border-width: 20px; 
     line-height: 90px;
-   margin: 0;
-   padding: 0 25px;
-
-}
+   margin: 0; }
 
 p { background-color: #cccccc;
     padding: 20px; 
-    margin: 0;
+    margin-top: 5%;
 }
 footer { background-color: #666666;
         text-align: center;
