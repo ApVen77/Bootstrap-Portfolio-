@@ -26,21 +26,22 @@ body  {
 }
 
 h1 { background-color: #4aaaa5; 
-   font:  font-family: 'Georgia', Times, Times New Roman, serif;
+   font-family: 'Georgia', Times, Times New Roman, serif;
     border-width: 20px; 
     line-height: 90px;
    margin-top:10px;
    padding: 0 25px;
 
 }
-h2{ font-size: 25px; 
+h2{ font-size: 30px; 
     text-align: left;
-    color: #4aaaa5;
+    color: rgb(255, 157, 29);
 }
-.form-group { background-color: #ffffff;
-    margin-top: 25px; 
+#input-1 {
+    height: 50%;
+}
 
-}
+
 footer { background-color: #666666;
     text-align: center;
 margin-top:  75px; }
