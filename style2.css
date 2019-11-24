@@ -12,21 +12,37 @@
 
 body  {
 
-    background: url("https://thumbs.dreamstime.com/z/background-african-ornament-abstract-ethnic-pattern-copy-space-template-greeting-card-invitation-poster-vector-file-51712928.jpg") center;
+    background: url("https://newevolutiondesigns.com/images/freebies/retro-wallpaper-38.jpg") center;
 
 }
 
 .navbar 
 {   background-color: #777777; 
     float: right;
-    word-spacing: 5px; 
-
     
-
 }
 
-h1 { background-color: #4aaaa5; 
-   font-family: 'Georgia', Times, Times New Roman, serif;
+#Input-1 {
+   
+    width: 50%;
+    height: 75px;
+    color: rgba(0, 0, 0, 0.527);
+}
+ #Input-2 {
+            width: 70%;
+            height: 75px;
+            rgba(0, 0, 0, 0.527);
+}
+
+#Select-2 {
+    width: 90%;
+    rgba(0, 0, 0, 0.527);
+}
+
+
+h1 { 
+    background-color: #4aaaa5; 
+    font-family: "Josefin Sans", cursive;
     border-width: 20px; 
     line-height: 90px;
    margin-top:10px;
@@ -37,11 +53,10 @@ h2{ font-size: 30px;
     text-align: left;
     color: rgb(255, 157, 29);
 }
-#input-1 {
-    height: 50%;
-}
 
 
 footer { background-color: #666666;
     text-align: center;
-margin-top:  75px; }
+    position: inherit;
+    margin-top: 375px;
+}
