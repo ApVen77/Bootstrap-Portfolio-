@@ -16,26 +16,29 @@ body  {
 }
 
 .navbar 
-{   background-color: #777777; 
-    float: right;
-    word-spacing: 5px;  }
+/* {   {background-color: #777777; } */
+  {float: right;
+      }
 
 .image {
   margin-top: 25px; 
   max-width: 100%;
   max-height: 100%;
-  border: 10px solid rgb(43, 37, 37);
+  border: 10px double rgb(107, 92, 92);
 }
 
 .jumbotron {
   background-color: #4aaaa5; 
-  height: 60px;
+  height: 100px;
 }
 
 h1 { 
-     font-family: "Josefin Sans", cursive;
-    
-   }
+  font-family: 'Abril Fatface', cursive; 
+    font-size: 60px;
+    margin: -40px;
+    margin-left: 10px;
+}
+
 
 p { 
     background-color: #cccccc;
@@ -43,6 +46,11 @@ p {
     margin-top: 25px;
 }
 
+h2 {
+     font-size: 25px;
+    word-spacing: 45px;
+    margin-left: 20px;
+}
 .card { 
     margin-top: 25px;
 
@@ -50,6 +58,8 @@ p {
 footer { 
       background-color: #666666;
         text-align: center;
-        position: inherit;
+        position: sticky;
         margin-top: 375px;
+        height: 10%;
+        font-size: 17px;
        }

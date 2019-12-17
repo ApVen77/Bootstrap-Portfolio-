@@ -17,7 +17,7 @@ body  {
 }
 
 .navbar 
-{   background-color: #777777; 
+{    
     float: right;
     
 }
@@ -36,13 +36,16 @@ body  {
 
 #Select-2 {
     width: 90%;
-    rgba(0, 0, 0, 0.527);
+    color:rgba(0, 0, 0, 0.527);
 }
 
 
 h1 { 
     background-color: #4aaaa5; 
-    font-family: "Josefin Sans", cursive;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    margin: -40px;
+    margin-left: 10px;
     border-width: 20px; 
     line-height: 90px;
    margin-top:10px;
@@ -55,8 +58,11 @@ h2{ font-size: 30px;
 }
 
 
-footer { background-color: #666666;
-    text-align: center;
-    position: inherit;
-    margin-top: 375px;
-}
+footer { 
+    background-color: #666666;
+      text-align: center;
+      position: sticky;
+      margin-top: 375px;
+      height: 10%;
+      font-size: 17px;
+     }
