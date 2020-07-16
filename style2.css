@@ -13,9 +13,18 @@
 body  {
 
     background: url("https://newevolutiondesigns.com/images/freebies/retro-wallpaper-38.jpg") center;
-
+    background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+button {
+  color: red;
+  border: 15px, black, solid;
+  background-color: lawngreen;
+  float: right;
+  margin: 70px;
+  height: 50px;
+}
 .navbar 
 {    
     float: right;
@@ -41,18 +50,19 @@ body  {
 
 
 h1 { 
-    background-color: #4aaaa5; 
-    font-family: 'Abril Fatface', cursive;
-    font-size: 60px;
-    margin: -40px;
-    margin-left: 10px;
-    border-width: 20px; 
-    line-height: 90px;
-   margin-top:10px;
-   padding: 0 25px;
+    font-family: 'Abril Fatface', cursive; 
+  font-size: 60px;
+  margin: -40px;
+  margin-left: 10px;
 
 }
-h2{ font-size: 30px; 
+
+.jumbotron {
+    background-color: #4aaaa5; 
+    height: 100px;
+    margin-top: 10px;
+  }
+h2 { font-size: 30px; 
     text-align: left;
     color: rgb(255, 157, 29);
 }
@@ -61,8 +71,9 @@ h2{ font-size: 30px;
 footer { 
     background-color: #666666;
       text-align: center;
-      position: sticky;
-      margin-top: 375px;
+      position: relative;
+      margin-top: 545px;
       height: 10%;
       font-size: 17px;
+      
      }

@@ -34,6 +34,15 @@
   #button:hover {
     background-color: white;
   }
+
+  #button:visited {
+    background-color:green;
+  }
+
+  #button:clicked {
+
+    color: #FF0000; }
+
   img {
     height: 250px;
     width: 230px;
@@ -45,38 +54,31 @@
    
   }
 
-  
-
   img:hover {
     opacity: 0.5;
 
   }
   
+  
+  
   body  {
-    background-image: url("https://st.depositphotos.com/1681248/2641/i/950/depositphotos_26415435-stock-photo-green-soft-light-subtle-abstract.jpg");
+    background: url("https://newevolutiondesigns.com/images/freebies/retro-wallpaper-38.jpg") center;
     background-attachment: fixed;
-    
+
 }
 
 .navbar { 
     
     float: right;
-    word-spacing: 5px; 
-    margin-top: 25px;
+    
     
 }
 
 h1 { 
-    background-color: #4aaaa5; 
-    font-family: 'Abril Fatface', cursive;
-    font-size: 60px;
-    margin: -40px;
-    margin-left: 10px;
-    border-width: 20px; 
-    height: 125px;
-    padding: 25px;
-    margin-top: 25px;
-    text-align: left;
+  font-family: 'Abril Fatface', cursive; 
+  font-size: 60px;
+  margin: -40px;
+  margin-left: 10px;
 }
 
 h2 {
@@ -91,6 +93,11 @@ h2 {
     margin-top: 25px;
   } */
 
+  .jumbotron {
+    background-color: #4aaaa5; 
+    height: 100px;
+    margin-top: 10px;
+  }
 
   footer { 
     background-color: #666666;
